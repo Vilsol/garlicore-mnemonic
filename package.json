@@ -1,6 +1,6 @@
 {
   "name": "garlicore-mnemonic",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "BIP39 Mnemonics implemented for Bitcore.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "lint": "gulp lint",
     "test": "gulp test",
     "coverage": "gulp coverage",
-    "build": "gulp"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.1.2",
-    "garlicore-build": "https://github.com/garlicoin-project/garlicore-build.git#fb3d484d185b5ee5fcb9416dba19d73f1ce832f9",
+    "garlicore-build": "git://github.com/garlicoin-project/garlicore-build.git#fb3d484d185b5ee5fcb9416dba19d73f1ce832f9",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
